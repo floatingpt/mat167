@@ -16,3 +16,5 @@ I used MFCC method of feature extraction in lieu of sliding discrete fourier tra
 Next, I computed the laplacian matrix using cosine similarity on the audio data BEFORE MFCC. I did K-means and PCA on this, and the outcome showed to be a poor indicator for accurately clustering.
 
 In the feature-extracted data, I found 6 clusters within the approx 8000 clips using PCA. I need to map these to values such as , but due to time contraints, I could not finish this tonight.
+
+A link to the [project github](https://github.com/floatingpt/mat167)
