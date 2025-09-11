@@ -13,3 +13,6 @@ After Processing these, I load the data into the extraction folder. This samples
 ## important note - 
 I used MFCC method of feature extraction in lieu of sliding discrete fourier transformation. I have used the implementation separately with this code, but it provided large outliers which messed up the dimensionality reduction. 
 
+Next, I computed the laplacian matrix using cosine similarity on the audio data BEFORE MFCC. I did K-means and PCA on this, and the outcome showed to be a poor indicator for accurately clustering.
+
+In the feature-extracted data, I found 6 clusters within the approx 8000 clips using PCA. I need to map these to values such as , but due to time contraints, I could not finish this tonight.
